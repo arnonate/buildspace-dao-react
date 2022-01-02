@@ -28,6 +28,7 @@ ALCHEMY_API_URL=YOUR_ALCHEMY_API_URL
 App Address: 0xE6EB057646F59CE209aFd9cF1b3fA71444c7bdc7
 Bundle Drop: 0xaC9A37439d62bA8B64DFbBA3861D4Ff221Ac4bf3
 
+```
 bundleDrop metadata: {
   metadata: {
     name: 'TokienDAO Membership',
@@ -39,6 +40,7 @@ bundleDrop metadata: {
   address: '0xaC9A37439d62bA8B64DFbBA3861D4Ff221Ac4bf3',
   type: 11
 }
+```
 
 ERC1155
 ```
