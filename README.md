@@ -39,3 +39,8 @@ bundleDrop metadata: {
   address: '0xaC9A37439d62bA8B64DFbBA3861D4Ff221Ac4bf3',
   type: 11
 }
+
+ERC1155
+```
+This standard outlines a smart contract interface that can represent any number of fungible and non-fungible token types. Existing standards such as ERC-20 require deployment of separate contracts per token type. The ERC-721 standard’s token ID is a single non-fungible index and the group of these non-fungibles is deployed as a single contract with settings for the entire collection. In contrast, the ERC-1155 Multi Token Standard allows for each token ID to represent a new configurable token type, which may have its own metadata, supply and other attributes.
+```
