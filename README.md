@@ -10,11 +10,17 @@ To get started with this course, clone this repo and follow these commands:
 ### **Questions?**
 Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/COb520aae3-7925-42f4-a5e7-eaf718933766) and link your Discord account so you can get access to helpful channels and your instructor!
 
+## Links
+
 https://besu.hyperledger.org/en/stable/Concepts/NetworkID-And-ChainID/
 
 https://thirdweb.com/
 
 https://thirdweb.com/start
+
+https://app.uniswap.org/#/swap
+
+# Contracts
 
 App Address: `0xE6EB057646F59CE209aFd9cF1b3fA71444c7bdc7`
 
