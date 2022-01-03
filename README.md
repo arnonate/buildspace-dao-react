@@ -16,17 +16,13 @@ https://thirdweb.com/
 
 https://thirdweb.com/start
 
-```
-.env
+App Address: `0xE6EB057646F59CE209aFd9cF1b3fA71444c7bdc7`
 
-PRIVATE_KEY=YOUR_PRIVATE_KEY_HERE
-WALLET_ADDRESS=YOUR_WALLET_ADDRESS
-ALCHEMY_API_URL=YOUR_ALCHEMY_API_URL
-```
+Bundle Drop: `0xaC9A37439d62bA8B64DFbBA3861D4Ff221Ac4bf3`
 
-3rdWeb:
-App Address: 0xE6EB057646F59CE209aFd9cF1b3fA71444c7bdc7
-Bundle Drop: 0xaC9A37439d62bA8B64DFbBA3861D4Ff221Ac4bf3
+Token Module: `0x46A96a66E6c89309b19234327aA839907EbeA814`
+
+Voting Module: `0x2af867d27622a80b4473dFccaAC36686a7772697`
 
 ```
 bundleDrop metadata: {
@@ -46,3 +42,5 @@ ERC1155
 ```
 This standard outlines a smart contract interface that can represent any number of fungible and non-fungible token types. Existing standards such as ERC-20 require deployment of separate contracts per token type. The ERC-721 standard’s token ID is a single non-fungible index and the group of these non-fungibles is deployed as a single contract with settings for the entire collection. In contrast, the ERC-1155 Multi Token Standard allows for each token ID to represent a new configurable token type, which may have its own metadata, supply and other attributes.
 ```
+
+Because it's ERC-1155 everyone is an owner of the same NFT. This is pretty cool and it's also more gas efficient. Minting an ERC721 costs 96,073 gas. Minting an ERC1155 costs 51,935 gas. Why? Because everyone is sharing the same NFT data. We don't have to copy new data for each user.
